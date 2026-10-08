@@ -1,0 +1,8 @@
+{
+  "name": "CampusNest - Student Accommodation Platform",
+  "description": "Find safe, affordable, and student-friendly PGs, hostels, shared rooms, and flats near your college campus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

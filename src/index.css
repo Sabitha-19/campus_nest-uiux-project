@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Vollkorn', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-brown: #2D2421;
+  --color-terracotta: #B85C52;
+  --color-rose: #D99A8F;
+  --color-cream: #F7F1E8;
+  --color-offwhite: #FFFDF9;
+  --color-grey: #756762;
+  --color-gold: #C99A4A;
+}
+
+:root {
+  --brown: #2D2421;
+  --terracotta: #B85C52;
+  --rose: #D99A8F;
+  --cream: #F7F1E8;
+  --offwhite: #FFFDF9;
+  --grey: #756762;
+  --gold: #C99A4A;
+}
+
+body {
+  background-color: #F7F1E8;
+  color: #2D2421;
+  font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', Georgia, serif;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+/* Custom scrollbar matching palette */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F1E8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D99A8F;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B85C52;
+}
+
+/* Accessible focus ring */
+*:focus-visible {
+  outline: 2px solid #D99A8F;
+  outline-offset: 2px;
+}
